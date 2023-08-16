@@ -1,0 +1,38 @@
+@media(max-width: 3000px) {
+    body {
+        background: linear-gradient(black, rgb(75, 1, 1));
+        background-attachment: fixed;
+    }
+    .Titulos {
+        color: red;
+        font-family: 'Gill Sans', sans-serif;
+        text-align: center;
+    }
+    h2 {
+        color: red;
+    }
+    .txt {
+        color: azure;
+    }
+    .foot {
+        color: red;
+        background-color: black;
+        height: 50px;
+        text-align: center;
+        padding: 1%;
+    }
+    .Imagens {
+        height: 250px;
+        width: 300px;
+    }
+    .Imagens2 {
+        height: 350px;
+        width: 300px;
+    }
+    main {
+        justify-content: space-between;
+    }
+    section {
+        flex-basis: calc(50% - 20px);
+    }
+}
